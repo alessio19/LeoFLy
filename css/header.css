@@ -1,0 +1,45 @@
+header {
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    width: 100vw;
+    height: max-content;
+    background-color: var(--principale);
+    padding: 0.5em;
+}
+
+header #logoLF {
+    margin: auto 5%;
+}
+
+header #header-container {
+    width: inherit;
+    margin: auto;
+    text-align: center;
+}
+
+header #header-container a {
+    margin: auto 4%;
+    white-space: nowrap;
+    font-size: 17px;
+    text-transform: capitalize;
+}
+
+header #header-cta {
+    background-color: transparent;
+    border: 2px solid var(--accentuation);
+    color: var(--light-grey);
+    width: auto;
+    margin: auto 5%;
+    padding: 1em;
+    border-radius: 5000px;
+    white-space: nowrap;
+    font-size: 16px;
+    cursor: pointer;
+    text-transform: capitalize;
+    transition: all 300ms ease-out;
+}
+
+header #header-cta:hover {
+    background-color: var(--accentuation);
+}
